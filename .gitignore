@@ -5,3 +5,7 @@ redisco.egg-info
 .DS_Store
 dump.rdb
 *.swp
+echo ".filler/" >> .gitignore
+git add .gitignore
+git commit -m "Hide filler folder"
+git push
